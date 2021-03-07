@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <title>RSS Mail API</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3 mb-5 bg-light">
+        <a class="navbar-brand" href="/">
+          <img src="https://image.flaticon.com/icons/png/512/37/37430.png" width="30" height="30" alt="">
+          Feedmail
+        </a>
+        <ul class="collapse navbar-collapse navbar-nav justify-content-end">
+          <li class="nac-item"><a class="nav-link btn btn-primary mx-1 text-light" href="/">Save</a></li>
+          <li class="nac-item"><a class="nav-link btn btn-secondary mx-1 text-light" href="/">Preview</a></li>
+          <li class="nac-item"><a class="nav-link btn btn-danger mx-1 text-light" href="/">Send</a></li>
+        </ul>
+      </nav>
+      <div class="row">
+        <div class="col-6">
+          <form>
+            <div class="form-group">
+              <label for="inputEmail">Email address</label>
+              <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="examplemail@emxamplemail.com">
+               <textarea class="form-control mt-1" id="inputEmail" rows="20"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="col-6">
+          <form class="form-inline">
+            <label for="rssInput">RSS Url</label>
+            <input type="text" class="form-control" placeholder="Enter RSS Url" id="rssInput">
+            <button type="button" class="btn btn-secondary mt-1">Add</button>
+          </form>
+          <p class="shadow p-3 mb-5 mt-3 bg-light"><b>RSS</b></p>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container bg-secondary mt-3">
+        <p class="text-light p-3 text-center">Kamil Majewski, 2021</p>
+      </div>
+    </footer>
+  </body>
+</html>
